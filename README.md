@@ -47,7 +47,7 @@ Faster R-CNN with:
 └── Optimizer: AdamW(lr=1e-4, weight_decay=1e-4)
 ```
 
-## 🔧 数据流程
+##  数据流程
 ### 预处理流程
 ```python
 1. DICOM → 归一化 → RGB转换
