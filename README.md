@@ -1,16 +1,14 @@
 # RSNA肺炎检测挑战赛解决方案 
 
 
-医学影像目标检测项目，基于Faster R-CNN实现肺炎病灶检测，兼容Kaggle竞赛提交格式。
+医学影像目标检测项目，基于Faster R-CNN实现肺炎病灶检测。
 
 ##  仓库结构
 ```bash
 .
 ├── Pneumonia Detection.py      # 主程序（训练+推理）
 ├── README.md                   # 项目文档
-├── config/                     # 配置文件
-│   └── paths.py                # 路径配置
-├── data/                       # 数据集（.gitignore）
+├── data/                       # 数据集
 │   ├── stage_2_test_images/    
 │   ├── stage_2_train_images/
 │   ├── stage_2_train_labels.csv
